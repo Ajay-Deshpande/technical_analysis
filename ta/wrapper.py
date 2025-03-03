@@ -306,7 +306,7 @@ def add_trend_ta(
         ).ema_indicator()
 
     if 'trend_vortex_ind_pos' in trend_cols or \
-        "trend_vortex_ind_neg" in trend_cols
+        "trend_vortex_ind_neg" in trend_cols or \
         "trend_vortex_ind_diff" in trend_cols:
         # Vortex Indicator
         indicator_vortex = VortexIndicator(
